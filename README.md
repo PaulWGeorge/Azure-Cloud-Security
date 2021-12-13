@@ -11,13 +11,13 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 Below are links to the playbooks used:
 
-[elk](/Ansible/ELK%20Playbook.yml)
+[Webserver Playbook](Ansible/Webserver%20Playbook.yml)
 
-(Ansible/Webserver Playbook.yml)
+[ELK Playbook](/Ansible/ELK%20Playbook.yml)
 
-(Ansible/roles/Filebeat Playbook.yml)
+[Filebeat Playbook](Ansible/roles/Filebeat%20Playbook.yml)
 
-(Ansible/roles/Metricbeat Playbook.yml)
+[Metricbeat Playbook](Ansible/roles/Metricbeat%20Playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
