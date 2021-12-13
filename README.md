@@ -11,7 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 Below are links to the playbooks used:
 
-(Ansible/Elk Playbook.yml)
+![elk](/Ansible/ELK%20Playbook.yml)
 
 (Ansible/Webserver Playbook.yml)
 
