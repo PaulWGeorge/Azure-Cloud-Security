@@ -65,8 +65,8 @@ A summary of the access policies in place can be found in the table below.
 |----------|---------------------|-----------------------|
 | Jump Box | Yes                 | my personal IP address|
 | Web-1    | No                  | 10.0.0.4              |
-| Web-2    | No                  | NA                    |
-| Elk VM   | Yes                 | 23.99.180.159         |
+| Web-2    | No                  | 10.0.0.4              |
+| Elk VM   | No                  | 10.0.0.4              |
 
 ### Elk Configuration
 
@@ -88,10 +88,10 @@ This ELK server is configured to monitor the following machines:
 - Web-2 : 10.0.0.6
 
 We have installed the following Beats on these machines:
-- Filebeats and Metricbeats were installed on these machines.
+- Filebeats and Metricbeats were installed on these machines to create log files. They were then fed into Logstash for data processing that we then visualized in Kibana after being indexed and stored in Elasticsearch.
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat collects system logs in specified locations. It was built to handle large volumes of data and be efficient in logging change. An example of something Filebeat would index is the last line of an index in a registry so if the network failed, on reboot Filebeat would know where to return to.
+- Filebeat collects system logs in specified locations. It was built to handle large volumes of data and be efficient in logging change. An example of something Filebeat would index is the last line of an index in a registry so if the network failed, on reboot, Filebeat would know where to return to.
 - Metricbeat collects metric data on a system about usage of items such as CPU usage or system process uptime. Metricbeat can interestingly also monitor other beats on a system or the ELK stack itself.
 
 ### Using the Playbook
