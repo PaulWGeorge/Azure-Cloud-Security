@@ -68,8 +68,6 @@ A summary of the access policies in place can be found in the table below.
 | Web-2    | No                  | NA                    |
 | Elk VM   | Yes                 | 23.99.180.159         |
 
-# DO NOT FEEL GOOD HEEEEEEEEEEEEEEEEEEEEEEEEEEEELP
-
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it removes the possibility of user error and it scales up very well.
@@ -103,6 +101,3 @@ SSH into the control node and follow the steps below:
 - Copy the playbook file to the control node.
 - Update the hosts file to include the IP address of the webservers and the ELK server.
 - Run the playbook, and navigate to Kibana page for our ELK server (23.99.180.159:5601/app/kibana) to check that the installation worked as expected.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-- TODO:
