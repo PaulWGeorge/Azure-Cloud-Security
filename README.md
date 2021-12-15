@@ -1,6 +1,3 @@
-# Azure Cloud Security
-A collection of work done during the first half of my Certification in Cybersecurity culminating in the creation of an Azure Cloud Environment
-
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
